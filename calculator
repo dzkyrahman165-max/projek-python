@@ -1,0 +1,17 @@
+first_answer = int(input("masukan angka pertama = "))
+second_answer = int(input("masukan angka kedua = "))
+third_answer = int(input("pertambahan/pengurangan/perkalian/pembagian(1,2,3,4) = "))
+
+increase = first_answer + second_answer
+subtraction = first_answer - second_answer
+multiplication = first_answer * second_answer
+distribution = first_answer // second_answer
+
+if third_answer == 1:
+    print(f"{increase}")
+elif third_answer == 2:
+    print(f"{subtraction}")    
+elif third_answer == 3:
+    print(f"{multiplication}") 
+elif third_answer == 4:
+    print(f"{distribution}")    
