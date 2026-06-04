@@ -1,0 +1,8 @@
+name = input("what is your name? ")
+
+if len(name) <= 3 :
+    print ("sorry the character of your nema must be 3 character or more")
+elif len (name) >= 50 :
+    print ("the name must be less than 50 character")
+else:
+    print (" it's looks good")   
