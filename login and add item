@@ -1,0 +1,39 @@
+def great_user():
+    print('==== ROCK APP ====')
+    
+def login(username, password):
+    if username == "rinz" and password == "rock123":
+        print("✅ Login successful!")
+        return True
+    else:
+        print("something wrong!")
+        return False
+    
+def list_menu(menu):
+    print("==== menu ===")
+    print("total menu", len(menu))
+    print("frist menu", menu[0])
+    print("last menu", menu[-1])
+    
+def add_item(menu, item):
+    if item not in menu:
+        menu.append(item)
+        print(f"{item} add to menu")
+        return True
+    else:
+        print(f"{item} is already in the menu")
+        return False
+
+menu = ["bakso", "soto", "mie ayam", "es jeruk"]
+
+great_user()              
+
+username = input("Username: ")
+password = input("Password: ")
+
+logged_in = login(username, password)   
+
+if logged_in == True:
+    list_menu(menu)                     
+    new_item = input("Add item: ")
+    menu = add_item(menu, new_item)     
