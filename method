@@ -1,0 +1,52 @@
+cours = "python for beginner "
+#kalau gini yang akan di print itu index yang pertama yaitu p
+print (cours[0])
+
+cours = "python for beginner "
+#kalau gini yang akan di print itu index yang pertama hingga ketiga yaitu pyt
+print (cours[0:3])
+
+cours = "python for beginner "
+#kalau gini yang akan di print itu index yang pertama hingga akhr 
+print (cours[0:])
+
+cours = "python for beginner "
+#kalau gini yang akan di print itu index yang pertama hingga akhr 
+print (cours[:])
+
+cours = "python for beginner "
+#kalau gini yang akan di print itu index yang kedua hingga akhr ython for beginner
+print (cours[1:])
+
+cours = "python for beginner "
+#kalau gini yang akan di print itu index yang pertama hingga indexke lima pytho
+print (cours[:5])
+
+cours = "python for beginner "
+#kalau gini yang akan di print itu index yang kedua dari belakang yaitu r karena ada space di belakang r
+print (cours[-2])
+
+cours = "python for beginner "
+#kalau gini yang akan di print itu brp index dalam python for beginner 
+print (len(cours))
+
+cours = "python for beginner "
+#kalau gini akan membuat kata kata di atas menjadi capslock 
+print (cours.upper())
+
+cours = "python for beginner "
+#kalau gini akan membuat kata kata di atas menjadi tidak ada capslock
+print (cours.lower())
+
+cours = "python for beginner "
+#kalau gini akan menemukann p itu di index mana
+print (cours.find("p"))
+
+cours = "python for beginner "
+#kalau gini akan menggantikan beginner dengan absolute beginner
+print (cours.replace("beginner", "absolute beginner"))
+
+
+cours = "python for beginner "
+#kalau gini akan menampilkan true tapi kalau kita ganti satu huruf dia akan menampilkan false 
+print ("python" in cours)
